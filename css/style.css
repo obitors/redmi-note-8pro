@@ -78,7 +78,7 @@ body {
 
 
 .device-body:after {
-  position: absolute;
+  position: relative;
   content: " ";
   float: left;
   background: #000;
@@ -151,12 +151,27 @@ img {
     margin-left: -30%;
   background:
     linear-gradient(250deg, rgba(255,255,255,.25),
-    rgba(255,255,255,.1) 35%, transparent 35%);
+    rgba(255,255,255,.05) 35%, transparent 35%);
 	height: 585px;
 	width: 270px;
   margin-top: -15px;
   z-index: 1;
 }
+
+.device-speakers {
+  margin: auto;
+  position: relative;
+  float: left;
+  background: #050505;
+	height: 2px;
+	width: 100px;
+  margin-left: 30%;
+    margin-top: 2.1%;
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  box-shadow: inset -1px 1px 1px #505050;
+}
+
 .power-button {
   margin: auto;
   position: absolute;
@@ -168,4 +183,18 @@ img {
   margin-top: -400px;
   border-radius: 3px;
   box-shadow: inset -1px 1px 1px #505050;
+}
+
+.speaker-dots:first-child {
+margin-left: 1.5%;
+
+}
+.dot {
+    float: left;
+    width: 1px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 1%;
+    margin-top: .5%;
+    border-radius: 50%
 }
