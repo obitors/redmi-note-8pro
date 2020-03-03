@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #2e343b;
 }
@@ -57,19 +59,13 @@ body {
   z-index: 0;
 }
 
-.device-screen-off
+.device-screen-on
 {
-  background: url(https://wallpaperaccess.com/full/1139733.jpg);
+  background-image: url(/img/file.gif);
   background-size: 100% 100%;
   transition: height 0.3s ease-in-out, background-color 0.3s;
 }
 
-.device-screen-on
-{
-  background: url(https://1.bp.blogspot.com/-GiLBSKKyhIA/Xl50lggBKDI/AAAAAAAABnE/QGFwvXBX4VMoSqXS-AcYxJajhSbUEIsygCLcBGAsYHQ/s1600/Capture.PNG);
-  background-size: 100% 100%;
-  transition: height 0.3s ease-in-out, background-color 0.3s;
-}
 
 .device-body:after {
   position: relative;
@@ -91,7 +87,7 @@ body {
   margin-top: -10px;
   background-color: #1d1e20;
   border-radius: 15px;
-    position: relative
+    position:static;
     overflow: hidden;
 }
 
@@ -191,6 +187,10 @@ margin-left: 1.5%;
     margin-left: 1%;
     margin-top: .5%;
     border-radius: 50%
+}
+
+video {
+ margin-top: -16px;
 }
 
 iframe {
